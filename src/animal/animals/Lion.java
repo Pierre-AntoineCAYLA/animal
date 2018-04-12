@@ -6,12 +6,12 @@ import animals.Deplacer;
 
 public class Lion extends Animal {
 
-	Deplacer deplacer;
+	private Deplacer deplacer;
 
-	public Lion() {
-		this.age = 20;
-		this.poids = 190.0f;
-		this.taille = 1.80f;
+	public Lion(int age, float poids, float taille) {
+		this.age=age;
+		this.poids=poids;
+		this.taille=taille;
 		this.nom = "lion";
 		this.regime = new Carnivore();
 	}
@@ -19,4 +19,5 @@ public class Lion extends Animal {
 	public void LionDeplacer() {
 		this.deplacer = Deplacer.COURIR;
 	}
+
 }

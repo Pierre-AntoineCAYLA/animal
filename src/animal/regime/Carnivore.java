@@ -1,14 +1,14 @@
 package animal.regime;
 
+import animal.aliment.Viande;
+
 public class Carnivore extends Regime {
 
-	String regime;
-
-	public void Regime() {
-		this.regime = "Carnivore";
+	public Carnivore() {
+		super("Carnivore");
 	}
+	
 
-	public void Manger() {
-
-	}
+public void manger(Viande viande) {
+}
 }

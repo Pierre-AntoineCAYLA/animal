@@ -1,5 +1,6 @@
 package animals;
 
+import animal.aliment.Aliment;
 import animal.regime.Regime;
 
 public abstract class Animal {
@@ -25,4 +26,7 @@ public abstract class Animal {
 		return this.regime;
 	}
 
+	public void manger(Aliment aliment) throws Exception {
+		this.regime.manger(aliment);
+	}
 }

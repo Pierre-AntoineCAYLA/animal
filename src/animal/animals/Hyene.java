@@ -6,12 +6,12 @@ import animals.Deplacer;
 
 public class Hyene extends Animal {
 
-	Deplacer deplacer;
+	private Deplacer deplacer;
 
-	public Hyene() {
-		this.age = 5;
-		this.poids = 90.0f;
-		this.taille = 1.20f;
+	public Hyene(int age, float poids, float taille) {
+		this.age=age;
+		this.poids=poids;
+		this.taille=taille;
 		this.nom = "hyene";
 		this.regime = new Carnivore();
 	}

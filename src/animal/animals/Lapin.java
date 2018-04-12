@@ -8,10 +8,10 @@ public class Lapin extends Animal {
 
 	Deplacer deplacer;
 
-	public Lapin() {
-		this.age = 1;
-		this.poids = 15.0f;
-		this.taille = 0.20f;
+	public Lapin(int age, float poids, float taille) {
+		this.age=age;
+		this.poids=poids;
+		this.taille=taille;
 		this.nom = "Lapin";
 		this.regime = new Herbivore();
 	}
