@@ -1,5 +1,5 @@
 package animal.aliment;
 
-public class Carotte {
+public abstract class Carotte {
 
 }

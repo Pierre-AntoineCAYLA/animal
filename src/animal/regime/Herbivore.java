@@ -1,11 +1,14 @@
 package animal.regime;
-import animals.Animal;
 
-public abstract class Herbivore extends Animal{
+public class Herbivore extends Regime {
 
-String regime;
+	String regime;
 
 	public void Regime() {
-		this.regime="Herbivore";
+		this.regime = "Herbivore";
+	}
+
+	public void Manger() {
+
 	}
 }

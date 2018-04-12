@@ -14,8 +14,6 @@ public enum Deplacer {
 				code=id;
 				label=value;
 			}
-			public String toString() {
-				return code+"-"+label;
-			}
+			
 		}
 
