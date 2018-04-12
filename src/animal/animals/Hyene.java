@@ -7,7 +7,7 @@ import animals.Deplacer;
 public class Hyene extends Animal {
 
 	private Deplacer deplacer;
-
+	//donne les statistique propre à la hyene
 	public Hyene(int age, float poids, float taille) {
 		this.age = age;
 		this.poids = poids;

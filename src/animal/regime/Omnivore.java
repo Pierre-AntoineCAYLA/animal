@@ -8,7 +8,7 @@ public class Omnivore extends Regime {
 	public Omnivore() {
 		super("Omnivore");
 	}
-
+//il mange de tout
 	public void manger(Aliment aliments) {
 	}
 }

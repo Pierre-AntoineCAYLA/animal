@@ -2,7 +2,7 @@ package animals;
 
 import animal.aliment.Aliment;
 import animal.regime.Regime;
-
+ //donne les propriétés commun à tous les animaux
 public abstract class Animal {
 	private Deplacer deplacer;
 	protected int age;
