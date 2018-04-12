@@ -7,8 +7,7 @@ public class Carnivore extends Regime {
 	public Carnivore() {
 		super("Carnivore");
 	}
-	
 
-public void manger(Viande viande) {
-}
+	public void manger(Viande viande) {
+	}
 }

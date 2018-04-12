@@ -8,11 +8,11 @@ public abstract class Regime {
 	public Regime(String regime) {
 		this.regime = regime;
 	}
-	
+
 	public String toString() {
 		return this.regime;
 	}
-	
+
 	public void manger(Aliment aliment) throws Exception {
 		throw new Exception();
 	}

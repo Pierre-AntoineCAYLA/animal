@@ -9,9 +9,9 @@ public class Lion extends Animal {
 	private Deplacer deplacer;
 
 	public Lion(int age, float poids, float taille) {
-		this.age=age;
-		this.poids=poids;
-		this.taille=taille;
+		this.age = age;
+		this.poids = poids;
+		this.taille = taille;
 		this.nom = "lion";
 		this.regime = new Carnivore();
 	}

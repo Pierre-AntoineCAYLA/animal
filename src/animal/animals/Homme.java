@@ -9,9 +9,9 @@ public class Homme extends Animal {
 	Deplacer deplacer;
 
 	public Homme(int age, float poids, float taille) {
-		this.age=age;
-		this.poids=poids;
-		this.taille=taille;
+		this.age = age;
+		this.poids = poids;
+		this.taille = taille;
 		this.nom = "homme";
 		this.regime = new Omnivore();
 	}
