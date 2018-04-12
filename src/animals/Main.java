@@ -1,11 +1,6 @@
 package animals;
 
 import java.util.Scanner;
-
-import animal.aliment.Aliment;
-import animal.aliment.Carotte;
-import animal.aliment.Plante;
-import animal.aliment.Steak;
 import animal.animals.Homme;
 import animal.animals.Hyene;
 import animal.animals.Lapin;
@@ -13,17 +8,18 @@ import animal.animals.Lion;
 
 public class Main {
 
+	private static Scanner sc;
+
 	public static void main(String[] args) {
 
 //initialisation		
 		int age;
 		float poids;
 		float taille;
-		int aliment;
 		
 //demande à l'utilisateur l'animale sur lequel il souhaite des informations		
 		System.out.println("quelle animal voulez-vous ? \n 1. Lion \n 2. Hyene \n 3. Lapin \n 4. Homme");
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 		int animal = sc.nextInt();	
 		
 //creaion d'un objet animal	et donne les informations le concernant		

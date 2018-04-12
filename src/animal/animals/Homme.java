@@ -8,7 +8,7 @@ public class Homme extends Animal {
 
 	Deplacer deplacer;
 
-//donne les statistique propre à l'Homme
+	//constructeur de l'homme et donne ses carcateristiques propres
 	public Homme(int age, float poids, float taille) {
 		this.age = age;
 		this.poids = poids;

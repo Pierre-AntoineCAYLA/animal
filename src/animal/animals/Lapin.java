@@ -7,7 +7,7 @@ import animals.Deplacer;
 public class Lapin extends Animal {
 
 	Deplacer deplacer;
-	//donne les statistique propre au lapin
+	//constructeur du lapin et donne ses carcateristiques propres
 	public Lapin(int age, float poids, float taille) {
 		this.age = age;
 		this.poids = poids;

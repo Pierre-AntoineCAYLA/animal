@@ -11,6 +11,7 @@ public abstract class Animal {
 	protected String nom;
 	protected Regime regime;
 
+//initialiation du constructeur
 	public Animal() {
 		this.age = 0;
 		this.poids = 0.0f;
