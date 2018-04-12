@@ -17,6 +17,6 @@ public class Hyene extends Animal {
 	}
 
 	public void HyeneDeplacer() {
-		this.deplacer = Deplacer.COURIRRE;
+		this.deplacer = Deplacer.COURIR;
 	}
 }

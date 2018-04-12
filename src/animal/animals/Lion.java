@@ -17,6 +17,6 @@ public class Lion extends Animal {
 	}
 
 	public void LionDeplacer() {
-		this.deplacer = Deplacer.COURIRRE;
+		this.deplacer = Deplacer.COURIR;
 	}
 }

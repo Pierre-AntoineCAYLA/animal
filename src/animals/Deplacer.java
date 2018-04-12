@@ -3,7 +3,7 @@ package animals;
 public enum Deplacer {
 
 		
-		COURIRRE(1, "Courirre"),
+		COURIR(1, "Courir"),
 		MARCHER(2, "Marcher"),
 		SAUTER(3, "Sauter");
 			
